@@ -30,35 +30,14 @@
 `Savings Plans` はAmazon EC2 RIs のような低価格を提供するが、さらに柔軟性が加わる。`Savings Plans` では、特定の instance 構成の代わりに 時間単位 \($/hour\)の一定の compute 利用量を確約することで請求をへらすことができる。 `Savings Plans` は取替や変更の必要性なく、ニーズに最適な低価格を conput optionによって柔軟さを提供する。
 
 `Compute Savings Plans` は On-Demand から 最大 66% off を提供する。Convertibale RIsと近い。 `Compute Savings Plans` は自動的に EC2 instance、Fargate、Lambda の使用量のコストから削減が適応される。`EC2 Instance Savings Plans` は最大で On-Demand から 72% off を提供する。Standard RIsと近い。そして、自動的に 選択したRegionにあるInstance familyに属するEC2 instanceのコストを削減してくれる。
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left">Compute Savings Plans</th>
-      <th style="text-align:left">EC2 Instance Savings Plans</th>
-      <th style="text-align:left">Convertible RIs*</th>
-      <th style="text-align:left">
-        <p>Standard RIs</p>
-        <p></p>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Savings over On-Demand</td>
-      <td style="text-align:left">Up to 66 percent</td>
-      <td style="text-align:left">Up to 72 percent</td>
-      <td style="text-align:left">Up to 66 percent</td>
-      <td style="text-align:left">Up to 72 percent</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">-</td>
-      <td style="text-align:left">-</td>
-      <td style="text-align:left">-</td>
-      <td style="text-align:left">-</td>
-      <td style="text-align:left">-</td>
-    </tr>
-  </tbody>
-</table>
-
+|                                                      | Compute Savings Plans | EC2 Instance Savings Plans | Convertible RIs* | Standard RIs     |
+|------------------------------------------------------|-----------------------|----------------------------|------------------|------------------|
+| Savings over On-Demand                               | Up to 66 percent      | Up to 72 percent           | Up to 66 percent | Up to 72 percent |
+| Lower price in exchange for monetary commitment      | ✓                     | ✓                          | —                | —                |
+| Automatically applies pricing to any instance family | ✓                     | —                          | —                | —                |
+| Automatically applies pricing to any instance size   | ✓                     | ✓                          | —**              | —**              |
+| Automatically applies pricing to any Tenancy or OS   | ✓                     | ✓                          | —                | —                |
+| Automatically applies to Amazon ECS using Fargate    | ✓                     | —                          | —                | —                |
+| Automatically applies to Lambda                      | ✓                     | —                          | —                | —                |
+| Automatically applies pricing across AWS Regions     | ✓                     | —                          | —                | —                |
+| Term length options of 1 or 3 years                  | ✓                     | ✓                          | ✓                | ✓                |
