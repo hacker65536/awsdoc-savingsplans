@@ -31,3 +31,7 @@
 
 `Compute Savings Plans` は On-Demand から 最大 66% off を提供する。Convertibale RIsと近い。 `Compute Savings Plans` は自動的に EC2 instance、Fargate、Lambda の使用量のコストから削減が適応される。`EC2 Instance Savings Plans` は最大で On-Demand から 72% off を提供する。Standard RIsと近い。そして、自動的に 選択したRegionにあるInstance familyに属するEC2 instanceのコストを削減してくれる。
 
+|  |  |
+| :--- | :--- |
+|  |  |
+
